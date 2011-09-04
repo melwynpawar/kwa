@@ -22,7 +22,7 @@ table{margin-bottom:20px;}
 
 table tr  td.relevant{font-weight:bold; width:200px; word-wrap:break-word; overflow:hidden;background:#ffcc99;border-radius:5px;max-height:30px;}
 table tr  td.prominent{margin:5px 20px 0px 0px; padding:5px; border-radius:5px; max-height:30px; }
-table tr  td.prominent_bg{background:#eee;max-height:30px; }
+table tr  td.prominent_bg{background:#eee;max-height:30px;width:600px;line-height:30px; overflow:hidden;}
 table tr  td.space-r{color:#000; text-decoration:none; padding-right:10px;}
 table tr  td.space-r a{color:#000; font-weight:bold; text-decoration:none;}
 table tr  td.space-r a:hover{text-decoration:underline;background:none;}
