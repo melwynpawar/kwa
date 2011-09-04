@@ -1,0 +1,33 @@
+
+<div class="heading">
+	<h1>KAB Requests</h1>
+</div>
+
+<div id="content">
+<div class="left-content">
+<p class="create"><%= link_to 'New Request', new_post_path %></p>
+
+<table>
+  <tr>
+    <th>Publisher</th>
+    <th>Request</th>
+    <th class="explore"></th>
+    <th class="edit"></th>
+    <th class="delete"></th>
+  </tr>
+
+<% @posts.each do |post| %>
+  <tr>
+    <td class="prominent relevant"><%= post.title %></td>
+    <td class="prominent prominent_bg"><%= post.description %></td>
+    <td class="space-r space-l link"><%= link_to 'explore', post %></td>
+    <td class="space-r link"><%= link_to 'edit', edit_post_path(post) %></td>
+    <td class="space-r"><%= link_to 'delete', post, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+
+<% end %>
+</table>
+
+</div>
+</div>
+

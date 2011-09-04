@@ -1,0 +1,24 @@
+<div class="heading">	
+	<h1>KAB Requests</h1>
+</div>
+<p id="notice"><%= notice %></p>
+<div id="content">
+
+	<div class="left-content">
+	
+
+	<p>
+	  <h2 class="publisher"> <%= @post.title %></h2>
+	 
+	</p>
+
+	<p>
+	  <p class="request"><%= @post.description %></p>
+	  
+	</p>
+
+
+<div class="actions"><%= link_to 'Edit', edit_post_path(@post) %> |<%= link_to 'Back', posts_path %></div>
+<div class="clear"></div>
+</div>
+</div>

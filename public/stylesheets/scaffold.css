@@ -1,0 +1,94 @@
+*{padding:0px; margin:0px;}
+body { background:url(../images/bg.gif) repeat-y scroll right 0 #e2e2e2; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+h1{color:#fff; background:#000; height:30px; padding:10px 0px 0px 10px; border-bottom:1px solid #fff;}
+
+h1 span{font-weight:normal;}
+.heading{background:#ccc;height:55px; border-bottom:1px solid #999;}
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+.left-content{background:#fff; width:980px; padding-left:10px; border-bottom-left-radius:15px;border-bottom-right-radius:15px; box-shadow:10px 10px 10px #888;  padding: 20px 0 20px 20px;}
+table{margin-bottom:20px;}
+#footer a{color:#fff; background:red; width:300px; margin:0 auto;}
+
+
+table tr  td.relevant{font-weight:bold; width:200px; word-wrap:break-word; overflow:hidden;background:#ffcc99;border-radius:5px;max-height:30px;}
+table tr  td.prominent{margin:5px 20px 0px 0px; padding:5px; border-radius:5px; max-height:30px; }
+table tr  td.prominent_bg{background:#eee;max-height:30px; }
+table tr  td.space-r{color:#000; text-decoration:none; padding-right:10px;}
+table tr  td.space-r a{color:#000; font-weight:bold; text-decoration:none;}
+table tr  td.space-r a:hover{text-decoration:underline;background:none;}
+table tr  td.space-l{padding-left:10px;}
+table tr  td.link a{color:#006699;}
+table tr th{padding:10px 0px; font-size:16px; color:#555; background:#daeef4;}
+table tr th.delete{background:url(../images/delete.gif) no-repeat scroll 10px 7px;}
+table tr th.edit{background:url(../images/edit.png) no-repeat scroll 5px 5px;}
+table tr th.explore{background:url(../images/explore.png) no-repeat scroll 20px 0px;}
+
+a { color: #3366ff; text-decoration:none; font-weight:bold; }
+a:visited { color: #3366ff; }
+a:hover {text-decoration:underline; }
+#content{margin-left:20px;}
+#footer{height:20px; background:#999; position:absolute; bottom:0;display:block;  border-top:1px solid #fff;}
+.actions{margin-top:10px; float:left;}
+.clear{clear:both;}
+.actions a{font-weight:bold; color:#3366ff; text-decoration:none;}
+.actions a:hover{text-decoration:underline; background:none;}
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+p.create{background:#669966; border-radius:6px; padding:5px; color:#fff; display:inline-block; width:120px; text-align:center; margin-bottom:10px;}
+p.create a{color:#fff; font-weight:bold; text-decoration:none;}
+p.create a:hover{text-decoration:underline; background:none;}
+.group-link{padding-left:20px; line-height:10px;}
+#cancel-new{float:left;line-height:30px; }
+#notice {background: url("../images/success1.png") no-repeat scroll 20px 2px #D4EFC2;border-bottom: 1px solid #999999;color: #999;line-height: 35px;padding-left: 55px; font-weight:bold;}
+h2.publisher{background:#ffcc99; margin:0px 0px 0px 0px; padding:20px; width:94%; border-top-left-radius:10px;border-top-right-radius:10px; text-transform:capitalize; text-decoration:underline;}
+p.request{background:#f2f2f2; margin:0px 0px 20px 0px; padding:20px; width:94%; border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+form{padding:10px 0px 10px 10px;}
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+.field input, .new_request input{border:2px solid #ccc; height:26px; line-height:26px; font-size:16px; font-weight:bold; border-radius:10px;width:340px; background:#f9f9f9;}
+.field textarea{border:2px solid #ccc; border-radius:10px; background:#f9f9f9;}
+#cancel-req{display:none;}
+.actions input{background:#669966; border-radius:8px; border:none; color:#fff; height:30px; padding:0px 5px; font-weight:bold; cursor:pointer; width:120px; text-align:center; }
+.actions input:hover{text-decoration:underline;}
+label{font-weight:bold; color:#555;}
+.space{margin-right:20px;}
